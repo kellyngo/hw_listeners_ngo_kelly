@@ -17,7 +17,7 @@ input {
 width: 400px;
 }
 
-.send {
+#send {
     width: 100px;
     height: 40px;
     color: white;

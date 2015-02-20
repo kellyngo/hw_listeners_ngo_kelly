@@ -1,10 +1,13 @@
-var send = document.getElementByClass ("send");
+var form = document.getElementById ("form");
 
-send.addEventListener( "click", clicked );
-send.addEventListener( "click", function() {
-    console.log ( "firstName" );
+var input = document.getElementsByTagName("input");
+
+form.addEventListener( "submit", function() {
+    event.preventDefault();
+    console.log(input.text);
 });
 
-function clicked() {
-    console.log ("Please Work");
-}
+
+
+
+
