@@ -11,7 +11,27 @@
 </head>
 <body>
 
+<div class="container">
+    <form class="email" action="mailme.php" method="post">
 
+    <p>First Name:</p>
+
+    <input type="text" name="firstName" />
+
+    <p>Last Name:</p>
+
+    <input type="text" name="lastName" />
+
+    <p>E-mail:</p>
+
+    <input type="text" name="email" />
+
+    <p>Message:</p>
+
+    <textarea name="message"></textarea>
+
+    <p><input class="send" type="submit" value="Send"> </form></p>
+</div>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
