@@ -1,0 +1,25 @@
+body {
+    background: #B4E6C4;
+}
+
+.container {
+    background: white;
+    margin: auto;
+    width: 500px;
+    margin-top: 10px;
+}
+
+form {
+   padding: 10px 0px 10px 20px;
+}
+
+input {
+width: 400px;
+}
+
+.send {
+    width: 100px;
+    height: 40px;
+    color: white;
+    background: gray;
+}
