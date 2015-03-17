@@ -1,12 +1,13 @@
-var form = document.getElementById ("form");
+var form = document.getElementById("form");
 
-var input = document.getElementsByTagName("input");
+var input = document.getElementsByTagName("input").innerHTML;
 
-form.addEventListener( "submit", function() {
+form.addEventListener( "submit", submit );
+
+function submit() {
+    console.log(input);
     event.preventDefault();
-    console.log(input.text);
-});
-
+}
 
 
 
