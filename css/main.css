@@ -13,12 +13,14 @@ form {
    padding: 10px 0px 10px 20px;
 }
 
-input {
-width: 400px;
+label {
+    display: block;
 }
 
+input,
 textarea {
-    width: 400px;
+    display: block;
+    width: calc(100% - 25px);
 }
 
 #send {
